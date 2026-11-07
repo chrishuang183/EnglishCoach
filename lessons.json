@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.1",
+  "title": "English Coach — Teacher-Guided Weekly Lessons",
+  "owner_preferences": {
+    "sources": ["Google 工作英文", "Teacher Breagh 教材與課堂筆記", "日常生活英文"],
+    "target_level": "TOEIC 750–850 approximately",
+    "daily_lessons": 10,
+    "repetitions_per_sentence": 3,
+    "schedule": "Any time; weekly lesson refresh on Thursday at 6:00 a.m. Taiwan time"
+  },
+  "lesson_policy": {
+    "daily_count": 10,
+    "repetitions": 3,
+    "mix": {"Google 工作英文": 5, "老師教材與弱點加強": 3, "日常生活英文": 2},
+    "priority_weaknesses": [
+      "Break long run-on sentences into short spoken chunks.",
+      "Reduce repeated use of and/so; pause between complete ideas.",
+      "Use it/them instead of repeating the same noun after phrasal verbs.",
+      "Use natural presentation transitions and confident Q&A responses."
+    ],
+    "note": "Lessons are newly written practice sentences based on the user's uploaded teacher materials and learning themes. Do not publish private source documents or confidential company information."
+  },
+  "lessons": [
+    {
+      "id": "work-01", "category": "STATUS UPDATE", "source": "Google 工作英文", "level": "B2",
+      "english": "Let me walk you through the validation results.",
+      "chinese": "我來帶大家逐步了解驗證結果。",
+      "focus": "walk someone through = 帶某人逐步了解。這是老師教材中的高頻簡報片語。",
+      "example": "Let me walk you through the latest update.", "repetitions": 3
+    },
+    {
+      "id": "work-02", "category": "DEBUG", "source": "Google 工作英文", "level": "B2",
+      "english": "We found an issue in the design. I'm looking into it now.",
+      "chinese": "我們在設計中發現一個問題。我現在正在調查。",
+      "focus": "拆成兩個短句，每句只表達一個完整想法；it 取代前面提過的 issue。",
+      "example": "I found a timing issue. I'm looking into it.", "repetitions": 3
+    },
+    {
+      "id": "work-03", "category": "CROSS-TEAM", "source": "Google 工作英文", "level": "B2",
+      "english": "I'd like to make sure we're all on the same page before we move forward.",
+      "chinese": "在繼續進行之前，我想先確認大家的認知一致。",
+      "focus": "on the same page = 達成共識／認知一致。適合跨團隊會議。",
+      "example": "Let's make sure we're on the same page about the next steps.", "repetitions": 3
+    },
+    {
+      "id": "work-04", "category": "PRESENTATION", "source": "Google 工作英文", "level": "B2",
+      "english": "Now that we've covered the root cause, let's pivot to the mitigation plan.",
+      "chinese": "既然我們已經說明根本原因，接下來轉到改善計畫。",
+      "focus": "Now that we've covered... = 既然已經談完……；pivot to = 轉向另一個主題。",
+      "example": "Now that we've covered the test setup, let's pivot to the results.", "repetitions": 3
+    },
+    {
+      "id": "work-05", "category": "Q&A", "source": "Google 工作英文", "level": "B2",
+      "english": "I don't have that exact data on hand, but I can follow up with you offline.",
+      "chinese": "我手邊沒有那份確切數據，但我可以會後再跟你確認。",
+      "focus": "on hand = 手邊現有的；follow up with you = 後續再跟你聯繫。適合不確定答案時使用。",
+      "example": "I don't have the measurement result on hand, but I'll check and get back to you.", "repetitions": 3
+    },
+    {
+      "id": "teacher-01", "category": "PRONOUN SWAP", "source": "老師教材與弱點加強", "level": "B2",
+      "english": "I found a bug in the design, so I asked my teammate to walk me through it.",
+      "chinese": "我在設計中發現一個錯誤，所以請隊友帶我了解這個問題。",
+      "focus": "不要重複說 the bug；第二次用 it。老師特別要求練習 it/them 代替重複名詞。",
+      "example": "Could you walk me through it one more time?", "repetitions": 3
+    },
+    {
+      "id": "teacher-02", "category": "ONE-BREATH RULE", "source": "老師教材與弱點加強", "level": "B2",
+      "english": "The first test is complete. We found two issues. I'll share the details in a moment.",
+      "chinese": "第一輪測試已完成。我們發現兩個問題。我稍後會分享細節。",
+      "focus": "One Breath Rule：每個呼吸表達一個完整想法。用停頓取代連續的 and / so。",
+      "example": "The board is ready. I'll start the next validation today.", "repetitions": 3
+    },
+    {
+      "id": "teacher-03", "category": "NATURAL TRANSITION", "source": "老師教材與弱點加強", "level": "B2",
+      "english": "To put that into perspective, this result is better than the previous version.",
+      "chinese": "從整體角度來看，這個結果比前一個版本更好。",
+      "focus": "to put that into perspective = 提供背景或比例，讓聽眾更容易理解。",
+      "example": "To put that into perspective, the improvement is significant.", "repetitions": 3
+    },
+    {
+      "id": "daily-01", "category": "DAILY LIFE", "source": "日常生活英文", "level": "B1-B2",
+      "english": "We have a lot of options. Let's narrow them down.",
+      "chinese": "我們有很多選項，來縮小一下範圍吧。",
+      "focus": "narrow down = 縮小範圍；them 代替前面的 options。這也是老師設計的 quick-fire 練習。",
+      "example": "There are too many restaurants. Let's narrow them down.", "repetitions": 3
+    },
+    {
+      "id": "daily-02", "category": "DAILY LIFE", "source": "日常生活英文", "level": "B1-B2",
+      "english": "I watched a movie last night. It was more interesting than I expected.",
+      "chinese": "我昨晚看了一部電影。它比我預期的更有趣。",
+      "focus": "分成兩個自然短句；第二句用 it 承接 movie，避免重複名詞。",
+      "example": "We tried a new restaurant. It was pretty good.", "repetitions": 3
+    }
+  ]
+}
