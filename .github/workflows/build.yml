@@ -18,10 +18,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Install Android SDK packages
+      - name: Verify Android SDK
         run: |
-          sdkmanager --licenses
-          sdkmanager "platforms;android-35" "build-tools;35.0.0"
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls -la "$ANDROID_HOME/platforms"
+          ls -la "$ANDROID_HOME/build-tools"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
